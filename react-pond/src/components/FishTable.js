@@ -1,10 +1,7 @@
 var FishTable = (props) => (
   <table>
     <tbody>
-    <tbody>
-      <FishTableRow fish = {props.fishes.map(ele=>{
-      	<FishTableRow ele={ele}/>
-      })}/>
+       {props.fishes.map(ele=> <FishTableRow ele={ele}/>)}
     
     </tbody>
   </table>
